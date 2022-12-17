@@ -1,0 +1,76 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.37.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Loki Merlynr, xxx, LIC=8VRJ7-E96I6-NNPAF-6EUBZ-MM33C-CZ9JP
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.37.0.0
+Toolchain Path:  D:\keil5_ARM\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.37.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      CMSIS_AGDI.dll V1.33.12.0
+Dialog DLL:      TCM.DLL V1.56.1.0
+ 
+<h2>Project:</h2>
+E:\project\FreeRTOS_GD32\Project\GD32F450.uvprojx
+Project File Date:  11/29/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\keil5_ARM\ARM\ARMCC\Bin'
+Rebuild target 'GD32F450'
+assembling startup_gd32f450_470.s...
+compiling main.c...
+..\User\main.c(57): error:  #268: declaration may not appear after executable statement in block
+  		int param=9999;
+..\User\main.c: 0 warnings, 1 error
+compiling sys.c...
+compiling systick.c...
+compiling my_task.c...
+..\User\my_task.c(6): error:  #268: declaration may not appear after executable statement in block
+  		static int n = 0;
+..\User\my_task.c: 0 warnings, 1 error
+compiling gd32f4xx_it.c...
+compiling system_gd32f4xx.c...
+compiling bsp_led.c...
+compiling bsp_usart.c...
+compiling gd32f4xx_gpio.c...
+compiling delay.c...
+compiling croutine.c...
+compiling gd32f4xx_rcu.c...
+compiling list.c...
+compiling gd32f4xx_usart.c...
+compiling event_groups.c...
+compiling stream_buffer.c...
+compiling heap_4.c...
+compiling queue.c...
+compiling timers.c...
+compiling port.c...
+compiling tasks.c...
+compiling gd32f4xx_misc.c...
+".\Objects\GD32F450.axf" - 2 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: GigaDevice
+                https://gd32mcu.com/data/documents/pack/GigaDevice.GD32F4xx_DFP.3.0.3.pack
+                GigaDevice.GD32F4xx_DFP.3.0.3
+                GigaDevice GD32F4xx Series Device Support and Examples
+
+<h2>Collection of Component include folders:</h2>
+  D:/keil5_ARM/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
